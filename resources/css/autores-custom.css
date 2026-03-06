@@ -1,0 +1,63 @@
+/* General */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Sidebar */
+.bg-dark {
+    background: linear-gradient(180deg, #212529 0%, #343a40 100%) !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link i {
+    margin-right: 10px;
+    width: 20px;
+    text-align: center;
+}
+
+/* Estado Activo */
+.nav-pills .nav-link.active {
+    background-color: #0d6efd !important;
+    box-shadow: 0 4px 12px rgba(13, 110, 253, 0.4);
+    transform: translateX(5px);
+}
+
+/* Efecto Hover */
+.nav-link:hover:not(.active):not(.disabled) {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff !important;
+    transform: translateX(5px);
+}
+
+/* Panel Título */
+h4.text-center {
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #f8f9fa;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 20px;
+}
+
+/* Contenido Principal */
+.col-md-9 {
+    background-color: #f8f9fa;
+    overflow-y: auto;
+}
+
+/* Card decorativa (puedes usarla en tus yields) */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}

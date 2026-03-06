@@ -29,6 +29,7 @@ Route::put('/autores/update/{autor}', [AutorController::class, 'update']);
 // RUTA PARA ELIMINAR UN AUTOR
 Route::delete('/autores/delete/{autor}', [AutorController::class, 'destroy']);
 
+// -----------------------------------------------------------------------------------------------------
 // RUTA PARA MOSTRAR LA VISTA DE LOS LIBROS
 Route::get('/libros', [LibroController::class, 'index']);
 
@@ -49,3 +50,5 @@ Route::put('/libros/update/{libro}', [LibroController::class, 'update']);
 
 // RUTA PARA ELIMINAR UN LIBRO
 Route::delete('/libros/delete/{libro}', [LibroController::class, 'destroy']);
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
