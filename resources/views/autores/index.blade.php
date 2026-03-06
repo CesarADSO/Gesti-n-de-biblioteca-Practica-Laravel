@@ -1,6 +1,5 @@
-@extends('layouts.app')
+<x-app-layout>
 
-@section('content')
 <div class="container-fluid">
     <div class="d-flex justify-content-between align-items-center mb-4">
         <div>
@@ -20,9 +19,9 @@
     </div>
     @endif
 
-    <div class="card border-0 shadow-sm">
-        <div class="card-body p-0">
-            <div class="table-responsive">
+    <div class="container">
+        <div class="card border-0 shadow-sm">
+            <div class="card-body p-0">
                 <table class="table table-hover align-middle mb-0">
                     <thead class="bg-light text-secondary">
                         <tr>
@@ -88,4 +87,4 @@
     .btn-group .btn { padding: 0.4rem 0.7rem; }
     .table thead th { border-top: none; }
 </style>
-@endsection
+</x-app-layout>
