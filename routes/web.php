@@ -4,9 +4,9 @@ use App\Http\Controllers\AutorController;
 use App\Http\Controllers\LibroController;
 use Illuminate\Support\Facades\Route;
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
 // RUTA PARA MOSTRAR LA VISTA DE AUTORES
 Route::get('/autores', [AutorController::class, 'index']);

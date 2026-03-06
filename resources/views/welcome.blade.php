@@ -7,7 +7,7 @@
     <title>BiblioAdmin — Gestión de Biblioteca</title>
 
     {{-- Estilos --}}
-    <link rel="stylesheet" href="{{ asset('assets/css/landing.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/styles_custom.css') }}">
 </head>
 <body>
 
