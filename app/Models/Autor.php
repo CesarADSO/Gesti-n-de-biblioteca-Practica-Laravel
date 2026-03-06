@@ -2,10 +2,14 @@
 
 namespace App\Models;
 
+// ESTA ES LA LÍNEA QUE FALTA:
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Autor extends Model
 {
+
+    use HasFactory;
     protected $fillable = [
         'nombres',
         'apellidos',
